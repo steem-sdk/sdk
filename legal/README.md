@@ -2,9 +2,9 @@
 title: Privacy policy and Terms of Use
 meta:
   - name: description
-    content: Glossary of popular Steem and Steemian jargons, terms slangs like 'minor', 'witness' and '#rewardpoolrape'. Find the definition of 'official' terms too, such as 'Steem Dollars', 'Steem Power' and more.
+    content: Steem SDK legals; Privacy Policy and Terms of Use.
   - name: keywords
-    content: steem glossary, steem jargons, steem terms definition, steem dictionary
+    content: steem sdk legals
 ---
 
 ## Legal
