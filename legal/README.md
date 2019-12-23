@@ -1,5 +1,5 @@
 ---
-title: Privacy policy and Terms of Use
+title: Privacy and Terms
 meta:
   - name: description
     content: Steem SDK legals; Privacy Policy and Terms of Use.
