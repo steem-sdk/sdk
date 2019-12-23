@@ -1,0 +1,21 @@
+{
+  "name": "steemsdk",
+  "version": "1.0.0",
+  "description": "steem development kit",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vuepress dev ./ --temp .temp",
+    "build": "vuepress build ./"
+  },
+  "author": "dzivenu",
+  "license": "MIT",
+  "dependencies": {
+    "@vuepress/plugin-google-analytics": "^1.2.0",
+    "@vuepress/plugin-pwa": "^1.2.0",
+    "vuepress": "^1.2.0",
+    "vuepress-plugin-sitemap": "^2.3.1"
+  },
+  "devDependencies": {
+    "@vuepress/plugin-back-to-top": "^1.2.0"
+  }
+}

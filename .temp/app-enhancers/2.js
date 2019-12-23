@@ -1,0 +1,1 @@
+export { default } from "C:\\Users\\ASUS Ultrabook\\Desktop\\Projects\\Steem Inc\\Projects\\steem sdk\\website\\node_modules\\vuepress-plugin-smooth-scroll\\lib\\enhanceApp.js"
