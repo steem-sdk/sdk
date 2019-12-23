@@ -9,18 +9,6 @@ import GlobalLayout from "C:\\Users\\ASUS Ultrabook\\Desktop\\Projects\\Steem In
 injectComponentOption(GlobalLayout, 'mixins', rootMixins)
 export const routes = [
   {
-    name: "v-95f39f58",
-    path: "/glossary/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-95f39f58").then(next)
-    },
-  },
-  {
-    path: "/glossary/index.html",
-    redirect: "/glossary/"
-  },
-  {
     name: "v-796584f1",
     path: "/",
     component: GlobalLayout,
@@ -33,6 +21,18 @@ export const routes = [
     redirect: "/"
   },
   {
+    name: "v-95f39f58",
+    path: "/glossary/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-95f39f58").then(next)
+    },
+  },
+  {
+    path: "/glossary/index.html",
+    redirect: "/glossary/"
+  },
+  {
     name: "v-72747704",
     path: "/guide/",
     component: GlobalLayout,
@@ -43,6 +43,18 @@ export const routes = [
   {
     path: "/guide/index.html",
     redirect: "/guide/"
+  },
+  {
+    name: "v-78e1f0ca",
+    path: "/legal/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-78e1f0ca").then(next)
+    },
+  },
+  {
+    path: "/legal/index.html",
+    redirect: "/legal/"
   },
   {
     name: "v-f678053e",

@@ -7,6 +7,36 @@ export const siteData = {
   "base": "/",
   "pages": [
     {
+      "title": "Home",
+      "frontmatter": {
+        "home": true,
+        "heroText": "Steem Development Kit",
+        "tagline": "Get ready to turn your ideas into the next big DApp on the Steem blockchain.",
+        "actionText": "Get Started →",
+        "actionLink": "/guide/",
+        "features": [
+          {
+            "title": "Standards",
+            "details": "Explore recommended standards for content creation, practices and common cultures."
+          },
+          {
+            "title": "Libraries",
+            "details": "Documentation for official and community maintained Steem software libraries."
+          },
+          {
+            "title": "Resources",
+            "details": "Discover official and community maintained resources for developers and witnesses."
+          }
+        ],
+        "footer": "MIT Licensed | Copyright © 2019-present Steem Institute"
+      },
+      "regularPath": "/",
+      "relativePath": "README.md",
+      "key": "v-796584f1",
+      "path": "/",
+      "lastUpdated": "12/23/2019, 3:10:21 PM"
+    },
+    {
       "title": "Glossary of words",
       "frontmatter": {
         "title": "Glossary of words",
@@ -156,36 +186,8 @@ export const siteData = {
           "title": "Key chain",
           "slug": "key-chain"
         }
-      ]
-    },
-    {
-      "title": "Home",
-      "frontmatter": {
-        "home": true,
-        "heroText": "Steem Development Kit",
-        "tagline": "Get ready to turn your ideas into the next big DApp on the Steem blockchain.",
-        "actionText": "Get Started →",
-        "actionLink": "/guide/",
-        "features": [
-          {
-            "title": "Standards",
-            "details": "Explore recommended standards for content creation, practices and common cultures."
-          },
-          {
-            "title": "Libraries",
-            "details": "Documentation for official and community maintained Steem software libraries."
-          },
-          {
-            "title": "Resources",
-            "details": "Discover official and community maintained resources for developers and witnesses."
-          }
-        ],
-        "footer": "MIT Licensed | Copyright © 2019-present Steem Institute"
-      },
-      "regularPath": "/",
-      "relativePath": "README.md",
-      "key": "v-796584f1",
-      "path": "/"
+      ],
+      "lastUpdated": "12/23/2019, 3:10:21 PM"
     },
     {
       "title": "SDK Guide",
@@ -227,6 +229,84 @@ export const siteData = {
           "title": "Business solutions",
           "slug": "business-solutions"
         }
+      ],
+      "lastUpdated": "12/23/2019, 3:10:21 PM"
+    },
+    {
+      "title": "Privacy policy and Terms of Use",
+      "frontmatter": {
+        "title": "Privacy policy and Terms of Use",
+        "meta": [
+          {
+            "name": "description",
+            "content": "Glossary of popular Steem and Steemian jargons, terms slangs like 'minor', 'witness' and '#rewardpoolrape'. Find the definition of 'official' terms too, such as 'Steem Dollars', 'Steem Power' and more."
+          },
+          {
+            "name": "keywords",
+            "content": "steem glossary, steem jargons, steem terms definition, steem dictionary"
+          }
+        ]
+      },
+      "regularPath": "/legal/",
+      "relativePath": "legal/README.md",
+      "key": "v-78e1f0ca",
+      "path": "/legal/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "Legal",
+          "slug": "legal"
+        },
+        {
+          "level": 3,
+          "title": "Privacy Policy",
+          "slug": "privacy-policy"
+        },
+        {
+          "level": 2,
+          "title": "Terms of Use",
+          "slug": "terms-of-use"
+        },
+        {
+          "level": 3,
+          "title": "1 Terms",
+          "slug": "_1-terms"
+        },
+        {
+          "level": 3,
+          "title": "2 Use License",
+          "slug": "_2-use-license"
+        },
+        {
+          "level": 3,
+          "title": "3 Disclaimer",
+          "slug": "_3-disclaimer"
+        },
+        {
+          "level": 3,
+          "title": "4 Limitations",
+          "slug": "_4-limitations"
+        },
+        {
+          "level": 3,
+          "title": "5 Accuracy of materials",
+          "slug": "_5-accuracy-of-materials"
+        },
+        {
+          "level": 3,
+          "title": "6 Links",
+          "slug": "_6-links"
+        },
+        {
+          "level": 3,
+          "title": "7 Modifications",
+          "slug": "_7-modifications"
+        },
+        {
+          "level": 3,
+          "title": "8 Governing Law",
+          "slug": "_8-governing-law"
+        }
       ]
     },
     {
@@ -259,7 +339,8 @@ export const siteData = {
           "title": "Steem Utils",
           "slug": "steem-utils"
         }
-      ]
+      ],
+      "lastUpdated": "12/23/2019, 3:10:21 PM"
     },
     {
       "title": "Developer resources",
@@ -306,7 +387,8 @@ export const siteData = {
           "title": "Test net",
           "slug": "test-net"
         }
-      ]
+      ],
+      "lastUpdated": "12/23/2019, 3:10:21 PM"
     },
     {
       "title": "Content style guide",
@@ -373,7 +455,8 @@ export const siteData = {
           "title": "DCMA",
           "slug": "dcma"
         }
-      ]
+      ],
+      "lastUpdated": "12/23/2019, 3:10:21 PM"
     },
     {
       "title": "Home",
@@ -410,7 +493,8 @@ export const siteData = {
           "title": "Downvoting",
           "slug": "downvoting"
         }
-      ]
+      ],
+      "lastUpdated": "12/23/2019, 3:10:21 PM"
     }
   ],
   "themeConfig": {
@@ -476,6 +560,19 @@ export const siteData = {
       {
         "text": "More",
         "items": [
+          {
+            "text": "Legal",
+            "items": [
+              {
+                "text": "Privacy",
+                "link": "/legal/#privacy-policy"
+              },
+              {
+                "text": "Terms",
+                "link": "/legal/#terms-of-use"
+              }
+            ]
+          },
           {
             "text": "Links",
             "items": [

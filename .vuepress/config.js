@@ -164,6 +164,18 @@ module.exports = {
       {
         text: 'More',
         items: [
+          { 
+            text: 'Legal',
+            items: [
+              {
+                text: 'Privacy', link: '/legal/#privacy-policy'
+              },
+              {
+                text: 'Terms', link: '/legal/#terms-of-use'
+              }
+            ],
+          },
+          
         /*
           { 
             text: 'Misc.',
